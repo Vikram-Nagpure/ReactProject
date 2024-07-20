@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+}
+
+.fetch-button {
+  margin: auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #44cdcd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.posts-container {
+  margin-top: 20px;
+}
+
+.post {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.post-title {
+  color: #333;
+}
+
+.post-body {
+  color: #666;
+}
