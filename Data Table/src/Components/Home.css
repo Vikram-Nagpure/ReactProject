@@ -1,0 +1,120 @@
+/* home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .home-header {
+    background: linear-gradient(135deg, #6d5bba, #8d58bf);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .home-footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .home-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-header p {
+      font-size: 1rem;
+    }
+  }
+
+  
+
+  /* login.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .login-form input[type="submit"],
+  .login-form button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #6d5bba;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form input[type="submit"]:hover,
+  .login-form button:hover {
+    background-color: #57449b;
+  }
+
+  
+
+  
